@@ -24,3 +24,16 @@ puts "Let's escape!"
 puts 'Let\'s escape!'
 
 puts "I said, \"Lets escape\""
+
+# Control characters \t new tab     \n new lines
+
+puts "\ta\tb\nc\n\td"
+# 	a	b
+# c
+#     d
+
+
+# String interpolation
+
+msg = 'I love you'
+puts "I just called to say: #{msg}."
