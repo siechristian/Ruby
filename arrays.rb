@@ -23,3 +23,18 @@ puts array.shuffle! #permanent
 puts array.include?(1)
 
 puts array.delete_at(1)
+
+
+# Array methods push, pop, shift and unshift
+
+# push append at item to the end
+# pop removes the last item
+# shift removes and item at the front and moves everything forward
+# unshift inserts new item at the beginning and moves 
+# everything else up
+
+# can add and subtract arrays
+
+puts [1, 2, 3] - [2]
+
+puts [1, 2, 3] + [4, 5, 6]
